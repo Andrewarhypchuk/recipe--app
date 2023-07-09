@@ -1,0 +1,30 @@
+@import "../Styles/Variables/variables";
+
+
+.homePageContainer{
+    width:100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 100px 0px 50px 0px;
+    &__title{
+       width:80%;
+       color: $base-color2;
+       line-height: 300%;
+       letter-spacing:1px;
+       font-weight: 100;
+       margin-bottom: 100px;
+    }
+    &__foto{
+          width: 630px;
+          height: 420px;
+          min-width: 630px;
+          min-height: 420px;
+          border-radius: 20px;
+          overflow: hidden;
+    }
+}

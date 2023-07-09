@@ -1,0 +1,73 @@
+@import "../Styles/Variables/variables";
+
+
+.formContainer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   &__inputLabel{
+       margin:10px
+       }
+   &__input{
+        height: 60px;
+        width: 515px;
+        border-radius: 30px;
+        border: none;
+        background: $input-main-color;
+        margin-bottom: 20px;
+        font-size: 22px;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        padding-left: 25px;
+   }
+   &__input:focus {
+       border: 1.5px solid $input-focus-color;
+       outline: none;
+   }
+    &__errorMessage{
+      background-color: $input-error-background;
+      color: $input-error-color;
+      padding: 10px 20px;
+      border-radius: 10px;
+      margin:10px;
+   }
+   &__submitButton{
+        height: 55px;
+        width: 251px;
+        border-radius: 41px;
+        outline: none;
+        border:none;
+        color:$input-error-color;
+        background-color: $base-color2;
+        font-size: 20px;
+        line-height: 55px;
+        letter-spacing: 2px;
+        text-align: center;
+        transition-duration: 0.3s;
+   }
+   &__submitButton:hover{
+    box-shadow: $base-color2 0px 20px 30px -10px;
+   }
+   &__submitSignInButton{
+    height: 55px;
+    width: 251px;
+    border-radius: 41px;
+    outline: none;
+    border:none;
+    color:$input-error-color;
+    background-color: $base-color1;
+    font-size: 20px;
+    line-height: 55px;
+    letter-spacing: 2px;
+    text-align: center;
+    transition-duration: 0.3s;
+}
+&__submitSignInButton:hover{
+box-shadow: $base-color2 0px 20px 30px -10px;
+}
+   &__registerButton{
+      margin-top: 30px;
+      margin-left: 0;
+   }
+}

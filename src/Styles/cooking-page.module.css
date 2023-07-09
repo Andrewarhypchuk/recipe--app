@@ -1,0 +1,86 @@
+.recipeContainer {
+  border-radius: 10px;
+  box-shadow: black 0px 10px 20px, black 0px 6px 6px;
+  transition-duration: 0.3s;
+  margin: 15px;
+  padding: 20px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: rgb(91, 89, 89);
+}
+.recipeContainer__title {
+  margin: 15px;
+}
+.recipeContainer__category {
+  color: white;
+  font-size: 22px;
+  margin: 5px;
+}
+.recipeContainer__time {
+  color: white;
+  font-size: 22px;
+  margin: 5px;
+}
+.recipeContainer__description {
+  text-align: center;
+  font-size: 20px;
+  margin: 10px;
+}
+.recipeContainer__ingredients {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.recipeContainer__ingredient {
+  list-style-type: none;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  transition-duration: 0.3s;
+  border-radius: 10px;
+}
+.recipeContainer__ingredient:hover {
+  background-color: rgb(127, 215, 127);
+}
+.recipeContainer__created {
+  color: white;
+  background-color: rgb(127, 215, 127);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.recipeContainer__ratingAndLikeContainer {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+.recipeContainer__rating {
+  margin: 10px;
+  font-size: 25px;
+}
+.recipeContainer__liked {
+  width: 50px;
+  height: 50px;
+  color: rgb(170, 23, 23);
+  font-size: 40px;
+}
+.recipeContainer__notLiked {
+  width: 50px;
+  height: 50px;
+  color: white;
+  font-size: 40px;
+  transition-duration: 0.3s;
+}
+.recipeContainer__notLiked:hover {
+  color: rgb(198, 111, 111);
+}
+.recipeContainer__saved {
+  margin: 10px;
+  padding: 10px;
+  color: rgb(61, 108, 61);
+  background-color: white;
+  border-radius: 5px;
+}/*# sourceMappingURL=cooking-page.module.css.map */

@@ -1,0 +1,104 @@
+@import "../Styles/Variables/variables";
+
+
+.recipeContainer{
+    width:90%;
+    border-radius: 10px;
+    box-shadow: $base-color2 0px 10px 20px, $base-color2 0px 6px 6px;
+    transition-duration: 0.3s;
+    margin: 15px;
+    padding: 20px;
+    background-color: $base-color5-extralight;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color:$base-color2-light;
+    &__title{
+         font-size: 30px;
+    }
+    &__category{
+       color: $base-color3;;
+       font-size: 22px;
+       margin: 5px;
+    }
+    &__time{
+        color: $base-color3;
+        font-size: 22px; 
+        margin: 5px; 
+    }
+    &__description{
+        text-align: center;
+        font-size: 20px;
+        margin: 10px;
+    }
+    &__ingredientsTitle{
+        color: $base-color3;
+        font-size: 22px; 
+        margin: 5px; 
+    }
+    &__instructions{
+        margin: 10px;
+        font-size: 22px; 
+    }
+    &__ingredients{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+    }
+
+    &__ingredient{
+        list-style-type: none;
+        margin: 3px;
+    }
+    &__created{
+        color: $base-color3;
+        background-color: $base-color5-light;
+        margin: 10px;
+        padding:10px;
+        border-radius: 5px;
+    }
+    &__ratingAndLikeContainer{
+        display: flex;
+        justify-content: space-between;
+        width:90%;
+    }
+    &__rating{
+        margin: 10px;
+        font-size: 25px;
+    }
+    &__liked{
+        width:50px;
+        height:50px;
+        color: $base-color4;
+        font-size: 40px;
+    }
+    &__notLiked{
+        width:50px;
+        height:50px;
+        color: $base-color3;
+        font-size: 40px;
+        transition-duration: 0.3s;
+    }
+    &__notLiked:hover{
+        color: $base-color4-light;
+    }
+    &__saved{
+        margin: 10px;
+        padding: 10px;
+        color: $base-color5;
+        background-color: $base-color3;
+        border-radius: 5px;
+    }
+    &__button{
+        margin: 10px;
+    }
+    &__startCookingButton{
+        background-color: $base-color5;
+        border:none;
+        color: $base-color3;
+        margin: 10px;
+    }
+    &__startCookingButton:hover{
+        transform: scale(1.05);
+    }
+}

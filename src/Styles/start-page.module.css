@@ -1,0 +1,44 @@
+.startPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 800px;
+}
+
+.mainPageContainer {
+  min-height: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.searchInput {
+  width: 300px;
+}
+
+.headerContainer {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.headerContainer__item {
+  margin: 10px;
+  padding: 30px;
+  border-radius: 10px;
+  text-decoration: none;
+  border: 1px solid darkcyan;
+  transition-duration: 0.3s;
+}
+.headerContainer__item:hover {
+  background-color: rgba(53, 198, 198, 0.718);
+  border: 1px solid rgba(53, 198, 198, 0.718);
+  color: white;
+  box-shadow: darkcyan 0px 3px 8px;
+}
+
+.footerContainer {
+  height: 120px;
+  width: 100%;
+  line-height: 120px;
+}/*# sourceMappingURL=start-page.module.css.map */
